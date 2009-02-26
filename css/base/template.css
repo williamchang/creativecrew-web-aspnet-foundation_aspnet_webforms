@@ -1,0 +1,106 @@
+﻿/*
+//-------------------------------------------------------------------
+// File       : template.css, template-style.css, dashboard.css, navigation.css, form.css, print.css
+// Version    : 1.0
+// Created    : 2008-08-29
+// Modified   : 2009-01-27
+//
+// Author     : William Chang
+// Email      : william@babybluebox.com
+// Website    : http://www.babybluebox.com
+//
+// Compatible : Microsoft Internet Explorer 6+, Mozilla Firefox 2+, Apple Safari 3+, Google Chrome 1+
+//-------------------------------------------------------------------
+/// <summary>
+/// Style sheet of template.
+/// </summary>
+///
+/// <remarks>
+/// References:
+/// Layout:
+/// http://www.manisheriar.com/holygrail/index.htm
+/// http://www.tanfa.co.uk/css/layouts/flexi_floats/
+/// Multiple CSS class:
+/// http://www.dhtmlkitchen.com/learn/css/multiclass/
+/// Microsoft Internet Explorer:
+/// http://www.hiveminds.co.uk/node/3095
+/// Clearing Floats:
+/// http://www.quirksmode.org/css/clearing.html
+/// </remarks>
+//-------------------------------------------------------------------
+*/
+
+/* Global
+//-------------------------------------------------------------------*/
+table {empty-cells:show;}
+strong {font-weight:bold;}
+
+/* Media: Screen, Projection
+//-------------------------------------------------------------------*/
+#jump {display:none;}
+.hide {display:none;}
+
+/* Framework
+//-------------------------------------------------------------------*/
+#frame, #frame1, #frame1bare, #frame2right, #framecp {}
+
+#frame #region-left, #frame1 #region-left {display:none;}
+#frame #region-right, #frame1 #region-right {display:none;}
+#frame #region-middle, #frame1 #region-middle {margin-left:0;}
+
+#frame1bare #region-header {display:none;}
+#frame1bare #region-left {display:none;}
+#frame1bare #region-right {display:none;}
+#frame1bare #region-middle {margin-left:0;}
+
+#frame2right {width:950px;margin:0 auto;}
+#frame2right #region-left {display:none;}
+#frame2right #region-right {display:block;}
+#frame2right #region-middle {margin-right:270px;}
+
+#framecp #region-header {display:none;}
+#framecp #region-left {display:block;}
+#framecp #region-right {display:none;}
+#framecp #region-middle {margin-left:200px;}
+
+/* Special Region
+//-------------------------------------------------------------------*/
+#region-special {}
+
+/* Container Region
+//-------------------------------------------------------------------*/
+#region-container {}
+
+/* Container Region
+//-------------------------------------------------------------------*/
+#region-container {}
+#region-container-buffer {}
+
+/* Column Region
+//-------------------------------------------------------------------*/
+#region-column {width:950px;margin:16px auto 0 auto;padding:0;overflow:hidden;}
+#region-column-buffer {margin:0;padding:4px 32px 0 32px;}
+
+/* Header Region
+//-------------------------------------------------------------------*/
+#region-header {display:none;margin:0 auto 8px auto;padding:0;}
+
+/* Left Region
+//-------------------------------------------------------------------*/
+#region-left {float:left;width:185px;margin-top:8px;overflow:hidden;}
+
+/* Right Region
+//-------------------------------------------------------------------*/
+#region-right {float:right;width:260px;overflow:hidden;}
+
+/* Middle Region
+//-------------------------------------------------------------------*/
+#region-middle {}
+
+/* Bottom Region
+//-------------------------------------------------------------------*/
+#region-bottom {width:auto;height:38px;overflow:hidden;clear:both;}
+
+/* Footer Region
+//-------------------------------------------------------------------*/
+#region-footer {margin-top:10px;}

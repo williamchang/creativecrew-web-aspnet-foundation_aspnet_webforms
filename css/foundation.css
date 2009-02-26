@@ -1,0 +1,80 @@
+/*
+//-------------------------------------------------------------------
+// File       : foundation.css
+// Version    : 1.5
+// Created    : 2007-12-18
+// Modified   : 2008-10-09
+//
+// Author     : William Chang
+// Email      : william@babybluebox.com
+// Website    : http://www.babybluebox.com
+//
+// Compatible : Microsoft Internet Explorer 6+, Mozilla Firefox 3+, Apple Safari 3+, Google Chrome 1+
+//-------------------------------------------------------------------
+/// <summary>
+/// Foundation of all XHTML documents. The sole purpose is to 
+/// strip away some of the default browser styles applied to common
+/// elements. By resetting all headings to the same size, for example,
+/// the style sheet avoids the inconsistencies of heading sizes across
+/// browsers and brings everything to a common baseline.
+/// </summary>
+///
+/// <remarks>
+/// References:
+/// http://meyerweb.com/eric/thoughts/2004/09/15/emreallyem-undoing-htmlcss/
+/// http://www.w3.org/TR/xhtml1/
+/// http://www.w3.org/TR/REC-CSS2/sample.html
+///
+/// Markup Code Example:
+/// Head:
+/// <link href="css/foundation.css" media="all" rel="stylesheet" type="text/css"/>
+/// Embed:
+/// <style type="text/css" media="all"></style>
+///
+/// Media Attribute Examples:
+/// media="all"
+/// media="screen"
+/// media="screen, projection"
+/// </remarks>
+//-------------------------------------------------------------------
+*/
+
+/* Baseline Elements
+//-------------------------------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{font-size:100%;}legend{color:#000;}
+table {empty-cells:show;}
+
+/* Baseline Styles
+//-------------------------------------------------------------------*/
+body {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0.9em;color:#000;}
+
+/* Generic Classes
+//-------------------------------------------------------------------*/
+.center {text-align:center;}
+.centerblock { /* Must set width inlined in tag. Add about 10 pixels. */
+	margin:0 auto;overflow:hidden;
+}
+.verticalaligntop {vertical-align:top;}
+.updateprogress {position:absolute;padding:0 0.5em 0 0.5em;}
+.error {color:#ff0000;}
+.log {color:#000;font-style:italic;}
+.required {font-weight:bold;color:#ff0000;}
+.highlight {background:#ffff00;}
+
+/* Error Specific Styles */
+.error-nojavascript {
+	position:fixed;top:44%;left:50%;width:auto;height:auto;padding:1em 1em;
+	border:solid 1px #ff0000;background:#ffcccc;color:#000;text-align:center;
+}
+.error-deprecatedbrowser {
+	position:absolute;top:60%;left:50%;overflow:hidden;
+	width:360px;height:240px;margin-left:-180px;margin-top:-120px;
+	padding:1em 1em;border:solid 1px #ff0000;background:#ffcccc;color:#000;text-align:left;
+}
+.error-deprecatedbrowser h6 {font-weight:bold;}
+.error-deprecatedbrowser p {margin:0.8em 0;}
+
+/* Width Standards */
+.widthfluid {width:100%;min-width:950px;}
+.width0 {width:750px;margin-left:auto;margin-right:auto;}
+.width1 {width:950px;margin-left:auto;margin-right:auto;}

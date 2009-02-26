@@ -1,0 +1,271 @@
+﻿/* Tables
+//-------------------------------------------------------------------*/
+.tblcommon {margin-bottom:1em;}
+.tblcommon th {
+	background:url(headercontent1.gif) #9fc4ff repeat-x 0 100%;
+	border-top:solid 1px #000099;
+	border-bottom:solid 1px #fff;
+	padding:4px 10px 4px 10px;
+	font-size:1.2em;
+	text-align:left;
+}
+.tblcommon td {
+	background:#efefef;
+	padding:4px 10px 4px 10px;
+	font-size:0.8em;
+}
+
+/* Forms
+//-------------------------------------------------------------------*/
+.frmcommon {padding:8px 16px;font-size:1em;}
+.frmcommon h4 {margin-bottom:1em;}
+.frmcommon a:link, .frmcommon a:visited {text-decoration:underline;color:#536482;}
+.frmcommon a:hover, .frmcommon a:active {text-decoration:underline;color:#536482;}
+.frmcommon .subheader {border-bottom:solid 2px #dbd7d1;font-weight:bold;font-size:1.2em;color:#666;}
+.frmcommon .modify {float:right;width:auto;text-align:right;}
+.frmcommon .labels {padding:8px 0 0 0;}
+.frmcommon .tbl {width:100%;padding-bottom:1em;}
+.frmcommon .tbl .row {background:#f3f3f3;}
+.frmcommon .tbl .rowalternate {background:#fafafa;}
+.frmcommon .tbl .labels {height:24px;padding:4px;text-align:left;font-weight:bold;color:#536482;}
+.frmcommon .tbl .labels .details {display:block;clear:both;font-weight:normal;}
+.frmcommon .tbl .controls {width:60%;padding:4px;border-left:solid 2px #dbd7d1;text-align:left;color:#536482;}
+.frmcommon .footer {padding-top:0;padding-left:265px;border-top:solid 2px #f3f3f3;}
+.frmcommon .footer.center {padding:0;text-align:center;}
+#frame1 .frmcommon .footer, #frame1bare .frmcommon .footer {padding-left:345px;}
+#frame1 .frmcommon .footer.center, #frame1bare .frmcommon .footer.center {padding:0;text-align:center;}
+
+/* Wizard Footer */
+.frmwizardfooter {margin-top:4px;padding-top:8px;border-top:solid 1px #ccc;overflow:hidden;font-size:10px;color:#327aa5;}
+.frmwizardfooter .controls {text-align:right;font-size:12px;}
+
+/* Page Control Panel */
+.frmpage-controlpanel {float:right;width:auto;margin:0;text-align:right;font-size:10px;color:#888;}
+
+/* Post Control Panel */
+.frmpost-controlpanel {margin:0 0 10px 0;padding:2px 0 2px 4px;border-bottom:solid 1px #ccc;background:#f5f5f5;font-size:10px;color:#888;}
+.frmpost-controlpanel .right {float:right;width:auto;margin:0 4px 0 0;}
+
+/* Sitemap */
+.frmsitemap {}
+.frmstiemap-controlpanel {font-size:10px;color:#888;}
+
+/* Search Results */
+.frmsearch-results {}
+.frmsearch-results-item {margin-bottom:10px;border-bottom:solid 1px #aaa;}
+
+/* Evaluation */
+.frmevaluation {padding:8px 16px;font-size:1em;}
+.frmevaluation h4 {margin-bottom:1em;}
+.frmevaluation a:link, .frmevaluation a:visited {text-decoration:underline;color:#536482;}
+.frmevaluation a:hover, .frmevaluation a:active {text-decoration:underline;color:#536482;}
+.frmevaluation .subheader {border-bottom:solid 2px #dbd7d1;font-weight:bold;font-size:1.2em;color:#666;}
+.frmevaluation .question {}
+.frmevaluation .answer {}
+.frmevaluation .answer p {padding:4px 4px;border:solid 2px #fff;background:#f9f9f9;}
+.frmevaluation .centerblock {width:640px;margin:0 auto;padding:8px 0 8px 0;overflow:hidden;}
+.frmevaluation .answer .txtevaluation {width:600px;height:100px;}
+.frmevaluation .footer {padding-top:0;padding-left:38.6%;_padding-left:30%;border-top:solid 2px #f3f3f3;}
+.frmevaluation .footer.center {padding:0;text-align:center;}
+
+/* Notices
+//-------------------------------------------------------------------*/
+div.notice-gray {margin:1em 0 1em 0;padding:1em 1em;border:dashed 1px #ccc;background:#e6e6e6;}
+div.notice-yellow {margin:1em 0 1em 0;padding:1em 1em;border:dashed 1px #d0dd9e;background:#eff8ce;}
+div.notice-green {margin:1em 0 1em 0;padding:1em 1em;border:dashed 1px #339966;background:#dbeedb;}
+
+/* Inputs
+//-------------------------------------------------------------------*/
+/* Global */
+input {vertical-align:middle;}
+input[type=text], input[type=password] {border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+textarea {border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+input[type=text]:hover, input[type=password]:hover, textarea:hover {border-color:#11a3ea;}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {border-color:#bc2a4d;}
+select {border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+/* Labels */
+.lblcommon {}
+/* Text Boxes */
+.txtcommon, .txtwide {height:19px;padding:3px 0 0 2px;border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+.txtbig {width:644px;height:32px;padding:4px 0 0 4px;font-size:24px;}
+/* Buttons */
+.btncommon {}
+.btnokay {width:74px;}
+.btncancel {width:74px;}
+.btnapply {width:74px;}
+.btnproceed {width:74px;}
+.btnback {width:74px;}
+.btnnext {width:74px;}
+.btnfinish {width:74px;}
+.btnsave {width:74px;}
+.btnsubmit {width:74px;}
+.btnquery {width:74px;}
+.btnsearch {width:74px;}
+.btnreset {width:74px;}
+.btnmodify {width:74px;}
+.btnpublish {width:74px;}
+.btnnew {width:74px;}
+.btncreate {width:74px;}
+.btnupdate {width:74px;}
+.btnedit {width:74px;}
+.btndelete {width:74px;}
+.btnadd {width:74px;}
+.btnremove {width:74px;}
+.btnupload {width:74px;}
+.btndownload {width:94px;}
+.btnextract {width:74px;}
+.btnrequest {width:74px;}
+.btnimpersonate {width:114px;}
+/* Drop-Down List */
+.ddlcommon {height:21px;border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+/* List Boxes */
+.lbcommon {border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+/* Check Box */
+.cbcommon {}
+.cbcommon label {padding:0 0 0 4px;}
+/* Check Box List - Required attributes: cssclass="cblcommon" repeatlayout="flow" */
+.cblcommon br {display:block;clear:both;}
+.cblcommon input {display:block;float:left;width:auto;height:20px;}
+.cblcommon label {display:block;float:left;width:90%;height:14px;padding:3px 0 0 4px;}
+/* Radio Buttons */
+.rbcommon {}
+.rbcommon label {padding:0 0 0 4px;}
+/* Radio Button List - Required attributes: cssclass="rblcommon" repeatlayout="flow" */
+.rblcommon label {padding:0 6px 0 2px;}
+/* File Upload */
+.fucommon {height:24px;padding:3px 0 0 2px;border:solid 1px #b4b4b4;background-color:#fff;color:#000;}
+
+/* DataGrid Control
+Required attributes: cssclass="dgcommon" cellspacing="0" cellpadding="0" gridlines="none"
+Required markup code: <headerstyle cssclass="headerstyle"/><itemstyle cssclass="itemstyle"/><alternatingitemstyle cssclass="alternatingitemstyle"/><selecteditemstyle cssclass="selecteditemstyle"/><footerstyle cssclass="footerstyle"/><pagerstyle cssclass="pagerstyle"/>
+References:
+http://aspnet.4guysfromrolla.com/articles/021605-1.aspx
+http://www.imaputz.com/cssStuff/bigFourVersion.html
+http://icant.co.uk/csstablegallery
+//-------------------------------------------------------------------*/
+.dgcommon {
+	width:100%;
+	border-top:solid 1px #ccc;border-left:solid 1px #ccc;
+}
+.dgcommon .headerstyle td {
+	padding:4px 4px 4px 4px;
+	background:#536482;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+	font-weight:bold;color:#f7f6f3;
+}
+.dgcommon .headerstyle td a {color:#f7f6f3;}
+.dgcommon .itemstyle {background:#fff;}
+.dgcommon .itemstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.dgcommon .alternatingitemstyle {background:#f7f6f3;}
+.dgcommon .alternatingitemstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.dgcommon .itemstyle:hover, .dgcommon .alternatingitemstyle:hover {background:#f6f4d0;}
+.dgcommon .footerstyle {background:#ddd;}
+.dgcommon .footerstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.dgcommon .pagerstyle td, .dgcommon .pagerstyle a, .dgcommon .pagerstyle span {
+	padding:2px;	
+	background:#284775;
+	font-weight:normal;color:#00ffff;
+}
+.dgcommon .pagerstyle a:link, .dgcommon .pagerstyle a:visited {background:transparent;text-decoration:underline;color:#00ffff;}
+.dgcommon .pagerstyle a:hover, .dgcommon .pagerstyle a:active {background:#00ffff;text-decoration:none;color:#284775;}
+
+/* GridView Control
+Required attributes: cssclass="gvcommon" cellpadding="0" cellspacing="0" gridlines="none"
+Required markup code: <headerstyle cssclass="headerstyle"/><rowstyle cssclass="rowstyle"/><alternatingrowstyle cssclass="alternatingrowstyle"/><selectedrowstyle cssclass="selectedrowstyle"/><footerstyle cssclass="footerstyle"/><pagerstyle cssclass="pagerstyle"/><emptydatarowstyle cssclass="emptydatarowstyle"/>
+//-------------------------------------------------------------------*/
+.gvcommon {
+	width:100%;
+	border-top:solid 1px #ccc;border-left:solid 1px #ccc;
+}
+.gvcommon .headerstyle th {
+	padding:4px 4px 4px 4px;
+	background:#536482;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+	font-weight:bold;color:#f7f6f3;
+}
+.gvcommon .headerstyle th a {color:#f7f6f3;}
+.gvcommon .rowstyle {background:#fff;}
+.gvcommon .rowstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.gvcommon .alternatingrowstyle {background:#f7f6f3;}
+.gvcommon .alternatingrowstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.gvcommon .rowstyle:hover, .gvcommon .alternatingrowstyle:hover {background:#f6f4d0;}
+.gvcommon .footerstyle {background:#ddd;}
+.gvcommon .footerstyle td {
+	padding:2px;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+}
+.gvcommon .pagerstyle td, .gvcommon .pagerstyle a, .gvcommon .pagerstyle span {
+	padding:2px;	
+	background:#005bab;
+	font-weight:normal;color:#00ffff;
+}
+.gvcommon .pagerstyle a:link, .gvcommon .pagerstyle a:visited {background:transparent;text-decoration:underline;color:#00ffff;}
+.gvcommon .pagerstyle a:hover, .gvcommon .pagerstyle a:active {background:#00ffff;text-decoration:none;color:#284775;}
+.gvcommon .emptydatarowstyle td {
+	padding:4px 4px 4px 4px;
+	background:#536482;
+	border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;
+	font-weight:bold;font-style:italic;color:#f7f6f3;
+}
+
+/* Page Specific Styles
+//-------------------------------------------------------------------*/
+
+/* List */
+.listresult {background:#536482;border-top:solid 1px #ccc;border-left:solid 1px #ccc;font-weight:bold;color:#f7f6f3;}
+.listresult ol {border-top:solid 2px #ccc;border-left:solid 2px #ccc;border-bottom:solid 2px #eee;border-right:solid 2px #eee;}
+.listresult ol li {}
+.listresult .dataitem {padding:4px;border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;background:#fff;}
+.listresult .dataitemalternate {padding:4px;border-bottom:solid 1px #ccc;border-right:solid 1px #ccc;background:#f7f6f3;}
+.listresult .dataitem:hover, .listresult .dataitemalternate:hover {background:#f6f4d0;}
+.listresult .details {float:right;width:auto;padding:0 0 4px 4px;border-left:solid 1px #ccc;border-bottom:solid 1px #ccc;}
+.listresult .dataitem .datacontent, .listresult .dataitemalternate .datacontent {font-weight:normal;color:#000;}
+
+/* Data Table Specific Columns */
+.columnresults .c1-header {text-align:left;}
+.columnresults .c2-header {text-align:center;}
+.columnresults .c3-header {text-align:center;}
+.columnresults .c4-header {text-align:center;}
+.columnresults .c5-header {text-align:center;}
+.columnresults .c1-item {text-align:left;}
+.columnresults .c2-item {text-align:center;}
+.columnresults .c3-item {text-align:center;}
+.columnresults .c4-item {text-align:center;}
+.columnresults .c5-item {text-align:center;}
+
+/* Report */
+.report {width:760px;margin:0 auto;}
+.report h3 {margin:0 2% 10px 2%;padding-bottom:4px;border-bottom:solid 1px #fff;text-align:center;font-size:1.2em;font-weight:bold;}
+.report .footer {margin:0 2% 0 2%;padding-top:4px;border-top:solid 1px #fff;text-align:center;}
+.report .form {width:100%;}
+.report .form .labels {padding:4px;text-align:right;}
+.report .form .controls {padding:4px;border-left:solid 2px #fff;}
+
+/* Components
+//-------------------------------------------------------------------*/
+.act-modal-background {
+	background-color:#323232;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+/* Override JavaScript Libaray Styles
+//-------------------------------------------------------------------*/
+
+/* Overrides
+//-------------------------------------------------------------------*/

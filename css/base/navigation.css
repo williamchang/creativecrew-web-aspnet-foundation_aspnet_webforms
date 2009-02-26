@@ -1,0 +1,125 @@
+/*
+References:
+http://www.cssplay.co.uk/menus/index.html
+http://manisheriar.com/blog/three-level-drop-downs-flyouts-ie7-style
+http://developer.yahoo.com/yui/menu/
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-family:Georgia, "Times New Roman", Times, serif;
+*/
+
+/* List Vertical
+//-------------------------------------------------------------------*/
+.listevent ul {margin:0;padding:0;}
+.listevent li {padding:6px 0 6px 2px;list-style:none;border-bottom:1px solid #666699;}
+.listevent li.header {display:block;padding:16px 0 16px 0;font-weight:bold;}
+
+/* Three Columns */
+.listcolumn3 {}
+.listcolumn3 .c1 {float:left;width:29%;padding:0 2% 0 2%;}
+.listcolumn3 .c2 {float:left;width:29%;padding:0 2% 0 2%;}
+.listcolumn3 .c3 {float:left;width:29%;padding:0 2% 0 2%;}
+
+/* Region Header - Menu
+//-------------------------------------------------------------------*/
+#region-header-navigationmenu {margin:0 0 0 4px;}
+
+/* Structure */
+#header-sf-menu, #header-sf-menu * {margin:0;padding:0;list-style:none;}
+#header-sf-menu {line-height:1.0;}
+#header-sf-menu ul {
+	position:absolute;top:-999em;
+	width:10em; /* left offset of submenus need to match (see below) */
+}
+#header-sf-menu ul li {width:100%;}
+#header-sf-menu li:hover {
+	visibility:inherit; /* fixes IE7 'sticky bug' */
+}
+#header-sf-menu li {float:left;position:relative;}
+#header-sf-menu a {display:block;position:relative;}
+#header-sf-menu li:hover ul, #header-sf-menu li.sfHover ul {
+	left:0;
+	top:2.5em; /* match top ul list item height */
+	z-index:99;
+}
+ul#header-sf-menu li:hover li ul, ul#header-sf-menu li.sfHover li ul {top:-999em;}
+ul#header-sf-menu li li:hover ul, ul#header-sf-menu li li.sfHover ul {
+	left:10em; /* match ul width */
+	top:0;
+}
+ul#header-sf-menu li li:hover li ul, ul#header-sf-menu li li.sfHover li ul {top:-999em;}
+ul#header-sf-menu li li li:hover ul, ul#header-sf-menu li li li.sfHover ul {
+	left:10em; /* match ul width */
+	top:0;
+}
+
+/* Skin */
+#header-sf-menu {
+	float:left;padding-top:6px;
+}
+#header-sf-menu a {
+	border-left:1px solid #fff;
+	padding:8px 10px;
+	text-decoration:none;
+}
+#header-sf-menu a.first {border:0;}
+#header-sf-menu a, #header-sf-menu a:visited  {/* visited pseudo selector so IE6 applies text colour*/
+	color:#000;
+}
+#header-sf-menu li {
+	background:#dbd7d1;
+}
+#header-sf-menu li li {
+	background:#cfc5b5;
+}
+#header-sf-menu li li li {
+	background:#bfb19b;
+}
+#header-sf-menu li:hover, #header-sf-menu li.sfHover, #header-sf-menu a:focus, #header-sf-menu a:hover, #header-sf-menu a:active {
+	background:#efefef;
+	outline:0;
+}
+
+/* Clearing Floats */
+#region-header-navigationmenu:after {content:".";height:0;display:block;visibility:hidden;clear:both;}
+#region-header-navigationmenu {display:inline-block;}
+/* BEGIN: Hide from IE-mac \*/
+* html #region-header-navigationmenu {height:1%;}
+#region-header-navigationmenu {display:block;}
+/* END: Hide from IE-mac */
+
+/* Region Header - Search
+//-------------------------------------------------------------------*/
+#region-header-search {float:right;width:auto;padding:8px 8px 0 0;}
+#region-header-search .txtcommon {height:20px;width:128px;border:solid 1px #b4b4b4;background-color:#f3f3f3;color:#000;}
+#region-header-search .txtcommon:hover {border-color:#11a3ea;background-color:#fff;}
+#region-header-search .txtcommon:focus {border-color:#bc2a4d;background-color:#fff;}
+#region-header-search .btnsearch {}
+
+/* Region Header - Cookie Crumb
+//-------------------------------------------------------------------*/
+#region-header-navigationcrumb {
+	padding:5px 16px 5px 16px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+#region-header-navigationcrumb .text {font-size:0.8em;}
+#region-header-navigationcrumb a {font-size:0.8em;}
+#region-header-navigationcrumb a:link, #region-header-navigationcrumb a:visited {text-decoration:none;color:#000;}
+#region-header-navigationcrumb a:hover, #region-header-navigationcrumb a:active {text-decoration:underline;color:#000;}
+
+/* Region Left - Menu
+//-------------------------------------------------------------------*/
+#region-left-menu {border-right:solid 1px #cccfd3;color:#537cb6;}
+#region-left-menu p {font-size:0.85em;}
+#region-left-menu ul {margin:0;padding:0;list-style:none;}
+#region-left-menu li {display:inline;margin:0;padding:0;font-weight:bold;font-size:0.85em;}
+#region-left-menu li span {display:block;margin:1px 0;padding:3px 3px 3px 8px;text-decoration:none;font-weight:normal;color:#138ecb;}
+#region-left-menu li a:link, #region-left-menu li a:link span {text-decoration:none;color:#138ecb;}
+#region-left-menu li a:visited, #region-left-menu li a:visited span {text-decoration:none;color:#138ecb;}
+#region-left-menu li a:hover, #region-left-menu li a:hover span {background-color:#efefef;text-decoration:none;color:#bc2a4d;}
+#region-left-menu li a:active, #region-left-menu li a:active span {color:#f632a0;}
+#region-left-menu li.header {
+	display:block;margin-top:15px;padding:0 0 2px 2px;border-bottom:1px solid #327aa5;
+	font-family:Tahoma, Helvetica, sans-serif;font-weight:bold;text-transform:uppercase;color:#115098;font-size:0.75em;
+}

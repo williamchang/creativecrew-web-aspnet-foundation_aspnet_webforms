@@ -1,0 +1,16 @@
+﻿/* 
+Any version of IE
+
+Reference:
+http://www.webdevout.net/articles/css_hacks.php
+*/
+
+/* Common
+//-------------------------------------------------------------------*/
+.error-nojavascript {position:absolute;}
+#region-special {height:0;overflow:hidden;}
+#region-left, #region-right, #region-middle {overflow:hidden;word-wrap:break-word;}
+
+/* Internet Explorer 7 Only
+//-------------------------------------------------------------------*/
+*:first-child+html .error-nojavascript {position:fixed;}

@@ -1,0 +1,24 @@
+.yui-skin-sam .yui-dt {font-family:Arial, Helvetica, sans-serif;font-size:11px;}
+.yui-skin-sam .yui-dt-scrollable .yui-dt-hd {border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;}
+.yui-skin-sam .yui-dt-scrollable .yui-dt-bd {border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;}
+.yui-skin-sam .yui-dt tr.yui-dt-first td {border-top:1px solid #cbcbcb;}
+.yui-skin-sam .yui-dt td.yui-dt-last {border-style:none solid none none;border-width:medium 0 medium medium;}
+.yui-skin-sam .yui-dt-scrollable .yui-dt-data tr.yui-dt-last td {border-bottom:1px solid #cbcbcb;}
+
+.datatable-toolbar {font-family:Arial, Helvetica, sans-serif;font-size:11px;}
+.datatable-toolbar .tb1 {border:solid 1px #ccc;border-bottom:0;background:#fafafa url(datatable-toolbar-bg.gif) repeat-x top;overflow:hidden;}
+.datatable-toolbar .tb2 {float:left;padding:1px;clear:both;}
+.datatable-toolbar .btnseparator {float:left;height:22px;margin:1px;border-left:solid 1px #ccc;border-right:solid 1px #fff;}
+.datatable-toolbar .fbutton {float:left;padding:1px;cursor:pointer;}
+.datatable-toolbar .fbutton div {float:left;padding:1px 3px;}
+.datatable-toolbar .fbutton span {float:left;display: block;padding:3px;}
+.datatable-toolbar .fbutton:hover {padding:0;border:solid 1px #ccc;}
+.datatable-toolbar .fbutton:hover div {padding:0 2px;border-left:solid 1px #fff;border-top:solid 1px #fff;border-right:solid 1px #eee;border-bottom:solid 1px #eee;}
+
+.datatable-toolbar .fbutton .add {background:url(add.png) no-repeat center left;}
+.datatable-toolbar .fbutton .edit {background:url(edit.png) no-repeat center left;}
+.datatable-toolbar .fbutton .delete {background:url(close.png) no-repeat center left;}
+.datatable-toolbar .fbutton .trash {background:url(trash.png) no-repeat center left;}
+.datatable-toolbar .fbutton .restore {background:url(restore.png) no-repeat center left;}
+.datatable-toolbar .fbutton .back {background:url(back.png) no-repeat center left;}
+.datatable-toolbar .fbutton .impersonate {background:url(user.gif) no-repeat center left;}

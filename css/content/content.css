@@ -1,0 +1,54 @@
+﻿/* Common
+//-------------------------------------------------------------------*/
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.color-inform {color:#2c5800;}
+.color-notice {color:#bc2a4d;}
+
+/* Block
+//-------------------------------------------------------------------*/
+.block {margin-bottom:8px;font-size:0.8em;}
+.block-buffer {padding:6px 10px 6px 10px;}
+.block h5 {margin:0 0 4px 0;padding:0 0 8px 0;border-bottom:solid 1px #fff;font-weight:bold;font-size:1.1em;}
+.block a:link, .block a:visited {text-decoration:none;color:#1b4ca2;}
+.block a:hover, .block a:active {text-decoration:underline;color:#1b4ca2;}
+
+/* Public Service Announcement (PSA)
+//-------------------------------------------------------------------*/
+.psa {}
+.psa ul {padding:4px 0 4px 20px;}
+.psa ul li {list-style-type:disc;}
+.psa ul li ul {padding:0 16px 4px 0;}
+.psa ul li ul li {list-style-type:none;font-weight:bold;text-align:right;}
+
+/* List Columns
+//-------------------------------------------------------------------*/
+.listexhibit {padding:2px 0 64px 0;}
+.listexhibit ul {min-height:128px;margin:0;padding:0;background:url(roundcorner_topleft.gif) transparent no-repeat 0 0;}
+.listexhibit li {list-style:none !important;}
+.listexhibit .header {display:block;padding:16px 0 4px 0;font-weight:bold;}
+.listexhibit .body {}
+.listexhibit .controls {margin:4px 0 0 0;color:#668000;}
+
+/* Page Specific Styles
+//-------------------------------------------------------------------*/
+.main-portal {}
+.main-portal h4 {padding-bottom:4px;margin-bottom:8px;}
+.main-portal h5 {color:#2c5800;font-size:1.1em;}
+.main-portal p {margin:0;padding:0;}
+.main-portal ul {margin:4px 0 4px 0;}
+.main-portal ul li {margin:0 0 4px 0;}
+.main-portal .block {float:left;width:32.6%;margin:0;overflow:hidden;font-size:1em;}
+.main-portal .block-buffer {height:200px;}
+.main-portal .spacer {float:left;width:1%;}
+.main-portal .footer {clear:both;}
+
+.main-post {}
+.main-post .header {margin:0;padding:0;}
+.main-post .status {margin:4px 0 4px 0;padding:2px 0;line-height:1.6em;padding-left:20px;background:url(time.png) #f5f5f5 no-repeat center left;font-size:10px;}
+.main-post .status:hover {background-color:#cbe3f1;}
+.main-post .body {}
+.main-post .footer {padding:4px 0;}
+
+/* Overrides
+//-------------------------------------------------------------------*/

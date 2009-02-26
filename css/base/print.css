@@ -1,0 +1,52 @@
+﻿/* Import
+//-------------------------------------------------------------------*/
+@import url(../foundation.css);
+
+/* Global
+//-------------------------------------------------------------------*/
+body {background:#fff;font-family:"Times New Roman", Times, serif;font-size:0.9em;color:#000;}
+img {border:none;}
+a:link, a:visited, a:hover, a:active {text-decoration:none;color:#000;}
+strong {font-weight:bold;}
+table {width:100%;empty-cells:show;}
+table th {font-weight:bold;}
+table td {border:solid 1px #ccc;}
+
+/* Media: Print
+//-------------------------------------------------------------------*/
+#jump {display:none;}
+.printhide {display:none;}
+
+/* Regions
+//-------------------------------------------------------------------*/
+#region-dashboard {	display:none;}
+#region-header h1 {font-size:1.6em;text-align:center;}
+#region-header div {display:none;}
+#region-header #region-header-navigationcrumb {display:none;}
+#region-left {display:none;}
+#region-right {display:none;}
+#region-middle {
+	margin:4px 0 0 0;
+	padding:10px 0 10px 0;
+	border-top:#000 solid 1px;
+	border-bottom:#000 solid 1px;
+}
+.region-middle-style h3 {margin-bottom:0.8em;font-size:1.7em;font-weight:bold;}
+.region-middle-style h4 {margin:1.1em 0;font-size:1.5em;font-weight:bold;}
+.region-middle-style h5 {margin:1.5em 0;font-size:1.3em;font-weight:bold;}
+.region-middle-style h6 {margin:1.7em 0;font-size:1.1em;font-weight:bold;}
+.region-middle-style p {margin:1.33em 0;}
+.region-middle-style ul {margin:10px 0 10px 20px;}
+.region-middle-style ul li {list-style-type:disc;}
+.region-middle-style ul li ul li {list-style-type:circle;}
+.region-middle-style ul li ul li ul li {list-style-type:square;}
+.region-middle-style ol {margin:10px 0 10px 30px;}
+.region-middle-style ol li {list-style-type:decimal;}
+.region-middle-style dl {margin:10px 0 10px 0;}
+.region-middle-style dl dt {margin:4px 0;}
+.region-middle-style dl dd {margin:2px 0 2px 40px;}
+#region-bottom {display:none;}
+#region-footer #region-footer-navigation {display:none;}
+#region-footer .credit {margin-top:4px;text-align:center;}
+#region-footer .credit .notice1 {display:none;}
+#region-footer .credit .notice2 {font-size:0.8em;font-weight:bold;color:#000;}

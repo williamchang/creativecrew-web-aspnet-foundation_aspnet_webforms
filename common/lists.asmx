@@ -1,0 +1,1 @@
+<%@ webservice language="C#" codebehind="~/App_Code/ServiceLists.cs" class="ent.ServiceLists" %>

@@ -1,0 +1,100 @@
+﻿/* Dashboard
+//-------------------------------------------------------------------*/
+#region-dashboard {
+	height:28px;
+	background:transparent;
+}
+#dashboard {
+	position:fixed;
+	_position:absolute;
+	width:100%;
+	z-index:900;
+}
+#dashboard #dashboard-min {
+	height:25px;
+	overflow:hidden;
+	background:#eee;
+	border-bottom:solid 2px #666699;
+	font-family:arial, helvetica, sans-serif;
+	font-size:75%;
+}
+#dashboard-min a {
+	text-decoration:none;
+	color:#666699;
+}
+#dashboard-min a:visited {color:#666699;}
+#dashboard-min a.begin {border:none;font-weight:bold;color:#039;}
+#dashboard-min a.highlight {font-weight:bold;}
+#dashboard-min a:hover {color:#9999cc;}
+#dashboard-max-toggle:hover {color:#9999cc;}
+
+/* Dashboard - Right Region
+//-------------------------------------------------------------------*/
+#dashboard-min div.right ul.item-list {float:right;width:auto;margin-top:6px;text-align:right;}
+#dashboard-min div.right ul.item-list li {float:left;width:auto;list-style:none;}
+#dashboard-min div.right ul.item-list li a {
+	padding:0 .6em 0 .6em;
+	border-left:none;border-right:solid 1px #999;
+}
+
+/* Dashboard - Left Region
+//-------------------------------------------------------------------*/
+#dashboard-min div.left {}
+#dashboard-min div.left .item-logo a {
+	float:left;width:20px;height:20px;margin:2px 0 0 4px;overflow:hidden;
+	background:url(logo-tiny-light.gif) transparent no-repeat 0 0;
+}
+#dashboard-min div.left .item-menumain {float:left;width:300px;margin:2px 0 0 32px;_margin:2px 0 0 16px;overflow:hidden;}
+#dashboard-min div.left .item-menumain a:hover {color:#666;}
+#dashboard-min div.left ul.item-list {float:left;width:auto;margin:6px 0 0 8px;overflow:visible;text-align:left;}
+#dashboard-min div.left ul.item-list li {float:left;width:auto;list-style:none;}
+#dashboard-min div.left ul.item-list li {padding:0 .6em 0 .6em;border-left:solid 1px #999;}
+
+#dashboard-min div.left ul.item-list .form {position:absolute;top:2px;left:2px;width:340px;height:22px;overflow:hidden;float:none;margin:0;padding:0;border:none;}
+#dashboard-min div.left ul.item-list .form .txtsearch {float:left;height:20px;width:160px;border:solid 1px #b4b4b4;background-color:#f3f3f3;color:#000;}
+#dashboard-min div.left ul.item-list .form .txtsearch:hover {border-color:#11a3ea;background-color:#fff;}
+#dashboard-min div.left ul.item-list .form .txtsearch:focus {border-color:#bc2a4d;background-color:#fff;}
+#dashboard-min div.left ul.item-list .form .btnsearch {float:left;width:74px;height:22px;font-size:12px;}
+#dashboard-min div.left ul.item-list .form .advancedsearch {float:right;width:auto;margin:0;padding:0;border:none;font-weight:bold;line-height:2.2em;}
+
+/* Dashboard - Middle Region
+//-------------------------------------------------------------------*/
+#dashboard-min div.middle {}
+
+/* Dashboard Max
+//-------------------------------------------------------------------*/
+#dashboard-max {
+	height:0;
+	overflow:hidden;
+}
+#dashboard-max .dashboard-max-panel {
+	height:295px;
+	border-bottom:solid 2px #666699;
+	background:#eee;color:#666699;
+}
+
+/* Dashboard Drawer
+//-------------------------------------------------------------------*/
+#dashboard-drawers {position:relative;}
+#dashboard-drawers .dashboard-drawer {
+	overflow:hidden;
+}
+
+/* Drawer: Control Panel 1 */
+#ddcontrolpanel1 {height:0;}
+#ddcontrolpanel1 .dashboard-drawer-panel {height:100px;background:#000;}
+#ddcontrolpanel1 .controlpanel {float:left;width:450px;height:65px;margin:0 0 0 400px;_margin:0 0 0 200px;}
+#ddcontrolpanel1 .controlpanel ul {margin:0 auto;width:540px;}
+#ddcontrolpanel1 .controlpanel li {float:left;width:100px;height:18px;margin:2px 2px;border:solid 1px #bbb;}
+
+/* Clearing Floats */
+.controlpanel ul:after {content:".";height:0;display:block;visibility:hidden;clear:both;}
+.controlpanel ul {display:inline-block;}
+/* BEGIN: Hide from IE-mac \*/
+* html .controlpanel ul {height:1%;}
+.controlpanel ul {display:block;}
+/* END: Hide from IE-mac */
+
+.controlpanel li {font-size:14px;text-align:center;color:#ddd;}
+.controlpanel a:link, .controlpanel a:visited {text-decoration:none;color:#ddd;}
+.controlpanel a:hover, .controlpanel a:active {text-decoration:none;color:#fff;}
