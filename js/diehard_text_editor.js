@@ -11,7 +11,7 @@
     0.1
 @date
     - Created: 2008-09-10
-    - Modified: 2009-02-07
+    - Modified: 2009-02-10
     .
 @note
     Prerequisites:
@@ -40,8 +40,8 @@
     .
 */
 
-/// Text editor widget.
-classTextEditor = function(idRegion, idInputText) {
+// Text editor widget.
+function classTextEditor(idRegion, idInputText) {
     var memberPublic = this;
     memberPublic.init = init;
     memberPublic.onLoadTextEditor = onLoadTextEditor;
