@@ -64,10 +64,10 @@ return this.each(function(_intIndex) {
 			return '';
 		}
 	}
-	/** Set window location hash (state). */
-	function _setWindowLocationHash(strHash) {
-		window.location.hash = '#tab=' + strHash;
-	}
+    /** Set window location hash (state). */
+    function _setWindowLocationHash(strHash) {
+        window.location.hash = '#tab=' + strHash;
+    }
     /** Parse panels from markup code. */
     function _parseMarkupPanels() {
         for(var intIndex = 0;intIndex < _strPanelsId.length;intIndex++) {
