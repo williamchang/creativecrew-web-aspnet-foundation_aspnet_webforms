@@ -1,0 +1,33 @@
+/* jQuery UI Dialog */
+.ui-dialog {border:solid 4px #666;background:#fff;}
+.ui-dialog .ui-dialog-titlebar {display:none;}
+.ui-dialog .ui-dialog-content {}
+.ui-widget-overlay {position:absolute;top:0;left:0;width:100%;height:100%;}
+.ui-widget-overlay {background:url(../content/loading-bg.png) #666666 50% 50% repeat;opacity:0.50;filter:alpha(opacity=50);}
+
+/* jQuery UI Tabs */
+#gallery #gallery-items-tabs-frame {position:relative;width:100%;height:412px;overflow:hidden;}
+#gallery #gallery-items-tabs {float:left;width:auto;margin:0 0 -1px 0;padding:0;border-right:solid 1px #aaa;}
+#gallery #gallery-items-tabs .gallery-items-tab {float:left;width:auto;border:solid 1px #aaa;border-right:0;list-style-type:none;text-decoration:none;font-size:100%;}
+#gallery #gallery-items-tabs .gallery-items-tab a {float:left;width:auto;padding:8px 12px;background:#fff;text-decoration:none;color:#999;}
+#gallery #gallery-items-tabs .gallery-items-tab a:hover {background:#eee;color:#666;}
+#gallery #gallery-items-tabs .ui-tabs-selected {border-bottom:solid 1px #aaa;}
+#gallery #gallery-items-tabs .ui-tabs-selected a, #gallery #gallery-items-tabs .ui-tabs-selected a:hover {background:#ddd;color:#000;}
+#gallery .ui-tabs-panel {}
+#gallery .ui-tabs-hide {display:none;}
+
+/* Gallery Interface */
+#gallery {}
+#gallery #gallery-panel-items {padding:8px;}
+#gallery #gallery-panel-items .gallery-items {height:376px;border:solid 1px #aaa;background:#000;overflow:auto;clear:both;}
+#gallery #gallery-panel-items .gallery-items .gallery-item {float:left;margin:8px;border:solid 1px #999;cursor:pointer;}
+#gallery #gallery-panel-items .gallery-items .gallery-item img {border:solid 3px #000;}
+#gallery #gallery-panel-items .gallery-items .gallery-item img:hover {border:solid 3px #ffff00;}
+#gallery #gallery-panel-items #gallery-footer {margin:8px 0 0 0;padding:8px;border:solid 1px #aaa;overflow:hidden;text-align:center;line-height:20px;font-weight:bold;}
+#gallery #gallery-panel-items #gallery-footer .controlpanel-left {float:left;width:auto;text-align:left;font-weight:normal;}
+#gallery #gallery-panel-items #gallery-footer .controlpanel-right {float:right;width:auto;text-align:right;font-weight:normal;}
+#gallery #gallery-panel-add {}
+.gallery-item-selected {position:relative;width:224px;height:80px;border:solid 4px #536482;background:#000;overflow:hidden;cursor:pointer;}
+.gallery-item-selected:hover {background:#333}
+.gallery-item-selected span {position:absolute;top:22px;right:8px;width:96px;color:#fff;}
+.gallery-item-selected img {float:left;width:96px;height:72px;padding:4px;border-right:solid 4px #536482;}
