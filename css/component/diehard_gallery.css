@@ -28,6 +28,6 @@
 #gallery #gallery-panel-items #gallery-footer .controlpanel-right {float:right;width:auto;text-align:right;font-weight:normal;}
 #gallery #gallery-panel-add {}
 .gallery-item-selected {position:relative;width:224px;height:80px;border:solid 4px #536482;background:#000;overflow:hidden;cursor:pointer;}
-.gallery-item-selected:hover {background:#333}
+.gallery-item-selected:hover {background:#333;}
 .gallery-item-selected span {position:absolute;top:22px;right:8px;width:96px;color:#fff;}
 .gallery-item-selected img {float:left;width:96px;height:72px;padding:4px;border-right:solid 4px #536482;}
